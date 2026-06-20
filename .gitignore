@@ -1,0 +1,77 @@
+# ===== Python 编译产物 =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ===== 虚拟环境 =====
+venv/
+.venv/
+env/
+ENV/
+.venv.bak/
+build/
+dist/
+
+# ===== 强化学习模型权重与训练产物 =====
+*.pth
+*.pt
+*.pt
+*.ckpt
+*.h5
+*.safetensors
+*.bin
+*.pkl
+*.pickle
+*.pb
+
+# ===== 训练曲线 & 可视化图片 =====
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+
+# ===== 日志文件 =====
+*.log
+*.out
+*.txt
+
+# ===== Jupyter Notebook 检查点 =====
+.ipynb_checkpoints/
+
+# ===== IDE / 编辑器 =====
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ===== 项目依赖缓存 =====
+__pycache__/
+*.egg-info/
+
+# ===== 系统文件（Windows/macOS）=====
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# ===== uv / pip 缓存 =====
+.venv/
+.cache/
+
+# ===== TensorBoard 日志目录 =====
+runs/
+logs/
+tensorboard/
+tb_logs/
+
+# ===== 调试文件 =====
+debug.log
+*.log
+*.swp
+*.swo
